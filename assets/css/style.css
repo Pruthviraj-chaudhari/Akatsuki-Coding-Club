@@ -1336,7 +1336,7 @@ section {
 /* card */
 .card {
   width: 250px;
-  height: 320px;
+  height: 360px;
   background: #1d1d1e;
   padding: 2rem 1.5rem;
   transition: box-shadow .3s ease, transform .2s ease;
