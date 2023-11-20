@@ -649,6 +649,399 @@ section {
   text-size-adjust: 20px;
   text-align: center;
 }
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Team Section */
+
+
+/* Leader's section */
+.section-one {
+    width: 100%;
+}
+
+.section-one .container-one {
+    width: 50%;
+    margin: auto;
+}
+
+.section-one .row-one {
+    width: 100%;
+    margin: auto;
+}
+
+.section-one .row-one .title-one {
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.section-one .row-one .title-one h1 {
+    font-size: 1.8em;
+    font-weight:bolder;
+}
+
+.section-one .row-one .title-one p {
+    color: gray;
+    font-size: 18px;
+    margin: 30px 0px;
+    font-weight:bold;
+}
+
+.section-one .container-one .team-card {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    margin-top: 50px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.section-one .container-one .team-card .card {
+    width: 100%;
+    height:auto;
+    background-color:#f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    border-color: white;
+}
+
+.section-one .container-one .team-card .card:hover {
+    background-color: #b6b6b6;
+    transition: 0.3s;
+}
+
+.section-one .container-one .team-card .card .image-section img {
+    height: auto;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 0.3rem;
+}
+
+.section-one .container-one .team-card .card .content {
+    width: 100%;
+    text-align: center;
+}
+
+.section-one .container-one .team-card .card .content h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(30, 29, 29);
+    font-weight:bold;
+}
+
+.section-one .container-one .team-card .card .content h4 {
+    margin-top: 10px;
+    font-size: 17px;
+    color: #6c6c6c;
+    font-weight:bold;
+}
+
+/* .section-one .container-one .team-card .card .content .icon li {
+    list-style: none;
+    margin-top: 20px;
+  
+} */
+
+.section-one .container-one .team-card .card .content a {
+    list-style: none;
+    margin: 0px 10px;
+    color: rgb(172, 170, 170);
+    font-size: 20px;
+ 
+}
+
+@media screen and (max-width:768px) {
+    .section-one .row-one .title-one h1 {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .section-one .container-one .team-card {
+        width: 100%;
+
+        grid-template-columns: repeat(2, 1fr);
+
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    .section-one .container-one .team-card {
+        width: 100%;
+        grid-template-columns: 2fr;
+    }
+    .section-one .container-one .team-card .card .content h3{
+        font-size: 1.2em;
+    }
+}
+
+
+
+
+/* Core team's section */
+
+
+.section-two {
+    width: 100%;
+}
+
+.section-two .container-two {
+    width: 80%;
+    margin: auto;
+}
+
+.section-two .container-two .row-two {
+    width: 100%;
+    margin: auto;
+}
+
+.section-two .container-two .row-two .title-two {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.section-two .container-two .row-two .title-two h1 {
+    font-size: 30px;
+    font-weight:bolder;
+}
+    
+
+.section-two .container-two .team-card {
+    width: 100%;
+    height:auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.section-two .container-two .team-card .card {
+    width: 100%;
+    height:auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    border-color: white;
+}
+
+.section-two .container-two .team-card .card:hover {
+    background-color: #f3f3f3;
+    transition: 0.3s;
+}
+
+.section-two .container-two .team-card .card .image-section img {
+    height: auto;
+    width: 100%;
+    max-width: 160px;
+    border-radius: 50%;
+}
+
+.section-two .container-two .team-card .card .content {
+    width: 100%;
+    text-align: center;
+}
+
+.section-two .container-two .team-card .card .content h3 {
+    font-size: 1.40vw;
+    margin-top: 10px;
+    color: rgb(30, 29, 29);
+    width: 100%;
+    font-weight:bold;
+}
+
+.section-two .container-two .team-card .card .content h4 {
+    font-size: 17px;
+    margin-top: 10px;
+    color: #6c6c6c;
+   
+}
+
+/* 
+.section-two .container-two .team-card .card .content .icon li {
+    list-style: none;
+    margin-top: 20px;
+} */
+
+.section-two .container-two .team-card .card .content a {
+    list-style: none;
+    color: rgb(172, 170, 170);
+    margin: 0px 10px;
+    font-size: 20px;
+}
+
+@media(max-width:768px) {
+    .section-two .container-two .row-two .title-two h1 {
+        font-size: 24px;
+    }
+    .section-two .container-two .row-two .title-two p {
+      font-size: 15px;
+  }
+  .section-two .container-two .team-card {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    height:auto;
+}
+.section-two .container-two .team-card .card .image-section img {
+  max-width: 90px;
+}
+.section-two .container-two .team-card .card .content h3 {
+
+  font-size: 3vw;
+}
+.section-two .container-two .team-card .card .content h4 {
+
+  font-size: 0.6em;
+}
+.section-two .container-two .team-card .card .content  a {
+  margin: 0px 7px;
+  font-size: 10px;
+}
+/* .section-two .container-two .team-card .card .content .icon li {
+  margin-top: 10px;
+} */
+}
+
+
+/* Section three */
+
+
+.section-three {
+    width: 100%;
+}
+
+.section-three .container-three {
+    width: 80%;
+    margin: auto;
+}
+
+.section-three .container-three .row-three {
+    width: 100%;
+    margin: auto;
+}
+
+.section-three .container-three .row-three .title-three {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.section-three .container-three .row-three .title-three h1 {
+    font-size: 30px;
+    font-weight:bolder;
+}
+
+
+.section-three .container-three .team-card {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+    grid-gap: 40px;
+}
+
+.section-three .container-three .team-card .card {
+    width: 100%;
+    height:auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    border-color: white;
+}
+
+.section-three .container-three .team-card .card:hover {
+    background-color: #f3f3f3;
+    transition: 0.3s;
+}
+
+.section-three .container-three .team-card .card .image-section img {
+    height: auto;
+    width: 100%;
+    max-width: 160px;
+    border-radius: 50%;
+}
+
+.section-three .container-three .team-card .card .content {
+    width: 100%;
+    text-align: center;
+}
+
+.section-three .container-three .team-card .card .content h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(30, 29, 29);
+    font-weight:bold;
+}
+
+.section-three .container-three .team-card .card .content h4 {
+    font-size: 17px;
+    margin-top: 10px;
+    color: #6c6c6c;
+   
+}
+/* 
+.section-three .container-three .team-card .card .content .icon li {
+    list-style: none;
+    margin-top: 20px;
+} */
+
+.section-three .container-three .team-card .card .content a {
+    list-style: none;
+    color: rgb(172, 170, 170);
+    margin: 0px 10px;
+    font-size: 20px;
+}
+
+@media(max-width:768px) {
+    .section-three .container-three .row-three .title-three h1 {
+        font-size: 24px;
+    }
+    .section-three .container-three .row-three .title-three p {
+      font-size: 15px;
+  }
+  .section-three .container-three .team-card {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    height:auto;
+}
+.section-three .container-three .team-card .card .image-section img {
+  max-width: 90px;
+}
+.section-three .container-three .team-card .card .content h3 {
+
+  font-size: 3vw;
+}
+.section-three .container-three .team-card .card .content h4 {
+
+  font-size: 0.6em;
+}
+.section-three .container-three .team-card .card .content a {
+  margin: 0px 7px;
+  font-size: 10px;
+}
+/* .section-three .container-three .team-card .card .content  {
+  margin-top: 10px;
+}
+ */
+}
 
 
 /*--------------------------------------------------------------
